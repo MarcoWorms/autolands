@@ -1,3 +1,7 @@
+# Autolands
+
+> Automated gpt world based on simple JSON agents and their daily stories, for entertainment purpose
+
 1. Alter [config.js](./config.js) to add your worldbuilding and agents
 2. Agents (players) inside an array are considered a team, they share the same day report and story for that day
 3. Call `passDay` to generate reports of what happened in each agent's life
