@@ -1,6 +1,8 @@
 1. Alter [config.js](./config.js) to add your worldbuilding and agents
 2. Agents (players) inside an array are considered a team, they share the same day report and story for that day
-3. Call `passDay` to generate reports of what happened in each agent life
+3. Call `passDay` to generate reports of what happened in each agent's life
+4. Agents have a mood variable that updates every day based on their current day story and influences the next day's story
+5. You can add whatever you want to agents JSON, the current engine won't edit their properties when day passes but it will always take all properties into consideration to generate the story
 
 Today agents only know about thir own reports and worldbuilding string. One improvement to be made is making them interact with other agents around the same region of the world.
 
